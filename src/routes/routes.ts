@@ -9,7 +9,7 @@ const router = Router();
 router.get('/listarTodosAlunos', AlunoController.listarAlunos); 
 router.post('/cadastrarAluno', AlunoController.cadastrarAluno);
 router.put('/atualizarAluno/aluno:alunoId', AlunoController.atualizarAluno);
-router.delete('deletarAluno/:alunoId', AlunoController.deletarAluno)
+router.delete('/deletarAluno/:alunoId', AlunoController.deletarAluno)
 
 router.get('/listarTodasDisciplinas', DisciplinaController.listarDisciplinas); 
 router.post('/cadastrarDisciplina', DisciplinaController.cadastrarDisciplina);
@@ -19,4 +19,3 @@ router.post('/vincularAlunoADisciplina', AlunoDisciplinaController.vincularAluno
 router.get('/listarDisciplinasDoAluno/:alunoId', AlunoDisciplinaController.listarDisciplinasDoAluno);
 
 export default router;
-

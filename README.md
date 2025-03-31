@@ -8,16 +8,3 @@ Express: Framework web minimalista para Node.js, usado para construir APIs e ser
 
 Node.js: Ambiente de execução para JavaScript no backend, baseado no motor V8 do Chrome
 
-//router.delete('deletarAluno/:alunoId', AlunoController.deletarAluno)
-
-// parte do MySQL 
-// createdAt
-// updatedAt
-// deletedAt
-// aluno > estrutura
-// adicionar coluna > após matricula
-// timestamp todos > tudo nulo
-
-// sequelize
-// no model bota timestamp como true
-// paranoid: true (no model)

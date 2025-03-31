@@ -7,7 +7,7 @@ export const listarAlunos = async (req: Request, res: Response) : Promise<any> =
 };
 
 // Cadastrar um novo aluno
-export const cadastrarAluno = async (req: Request, res: Response): Promise<any> => { 
+export const cadastrarAluno = async (req: Request, res: Response) : Promise<any> => { 
     const { nome, email, matricula } = req.body;
 
     let novoAluno = await Aluno.create({ nome, email, matricula });
